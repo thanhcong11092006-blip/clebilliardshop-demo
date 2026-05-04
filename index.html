@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trang chủ | Cle Billiard Shop</title>
+  <link rel="icon" type="image/svg+xml" href="da_phuong_tien/images/favicon.svg"/>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container">
+    <div>Website bài tập HTML + CSS chủ đề bán phụ kiện billiard</div>
+    <div>MSSV:524100057 | LOP:524100B</div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header-inner">
+    <a class="logo-wrap" href="index.html">
+      <img src="anh/logo.png" alt="Logo"/>
+      <div class="site-title">Cle Billiard Shop</div>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="active">Trang chủ</a>
+      <a href="san-pham.html">Sản phẩm</a>
+      <a href="dang-ky.html">Đăng ký</a>
+      <a href="bootstrap.html">Bootstrap</a>
+      <a href="media.html">Media</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="badge">Phụ kiện billiard cao cấp</span>
+      <h1>Thiết kế website bán phụ kiện billiard bằng HTML & CSS</h1>
+      <p>Giao diện có header, menu, sidebar, nội dung, banner, lưới sản phẩm, footer và liên kết sang các trang con theo yêu cầu bài tập.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="san-pham.html">Xem sản phẩm</a>
+        <a class="btn btn-outline" href="dang-ky.html">Đăng ký thành viên</a>
+      </div>
+    </div>
+    <div class="banner-stack">
+      <img src="anh/banner1.png" alt="Banner 1"/>
+      <img src="anh/banner2.png" alt="Banner 2"/>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN -->
+<main class="layout-main">
+  <div class="container home-grid">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <h3>Danh mục nhanh</h3>
+      <ul>
+        <li><a href="#noi-bat">Sản phẩm nổi bật</a></li>
+        <li><a href="#uu-diem">Ưu điểm cửa hàng</a></li>
+        <li><a href="san-pham.html">Tin tức / Dịch vụ / Sản phẩm</a></li>
+        <li><a href="dang-ky.html">Form thành viên</a></li>
+        <li><a href="bootstrap.html">Trang Bootstrap</a></li>
+        <li><a href="media.html">Video / Nhạc / Liên kết</a></li>
+      </ul>
+      <div class="highlight" style="margin-top:1rem">
+        <strong>Mockup Figma</strong>
+        <p>Đã kèm file SVG trong thư mục đa phương tiện.</p>
+      </div>
+    </aside>
+
+    <!-- CONTENT -->
+    <section class="content-area">
+      <div class="card">
+        <img src="anh/mockup.png" alt="Mockup trang chủ"/>
+        <div class="card-body">
+          <h2 class="section-title">Bản vẽ giao diện trang chủ</h2>
+          <p>File mockup và banner dạng SVG có thể import vào Figma để chỉnh sửa.</p>
+        </div>
+      </div>
+
+      <div id="noi-bat">
+        <h2 class="section-title">Sản phẩm nổi bật</h2>
+        <div class="grid-3 gallery">
+          <div class="product-card">
+            <img src="anh/svb.png" alt="Cơ bida"/>
+            <div class="meta"><div class="tag">Best Seller</div><h3>Cuetec Shane Van Boening</h3><p class="price">15.490.000đ</p></div>
+          </div>
+          <div class="product-card">
+            <img src="anh/blackaramith.webp" alt="Bóng thi đấu"/>
+            <div class="meta"><div class="tag">Thi đấu</div><h3>Bộ bóng tiêu chuẩn</h3><p class="price">4.350.000đ</p></div>
+          </div>
+          <div class="product-card">
+            <img src="anh/gangcuetec.png" alt="Găng tay"/>
+            <div class="meta"><div class="tag">Mới</div><h3>Găng tay 3 ngón</h3><p class="price">189.000đ</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="uu-diem" class="grid-2">
+        <div class="info-box card-body">
+          <h3>Ưu điểm website</h3>
+          <ul>
+            <li>Menu điều hướng rõ ràng.</li>
+            <li>Sidebar riêng cho trang chủ.</li>
+            <li>Ảnh có gắn MSSV.</li>
+            <li>Có logo và icon trên thanh tiêu đề.</li>
+          </ul>
+        </div>
+        <div class="info-box card-body">
+          <h3>Thông tin bài tập</h3>
+          <ol>
+            <li>Tối thiểu 5 trang HTML.</li>
+            <li>Có trang form lồng trong bảng.</li>
+            <li>Có trang dùng Bootstrap.</li>
+            <li>Có YouTube, nhạc và liên kết ngoài.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div>
+      <strong>Cle Billiard Shop</strong>
+      Phụ kiện billiard chất lượng cho người mới và cơ thủ chuyên nghiệp.
+    </div>
+    <div class="socials">
+      <a href="https://www.facebook.com/thanhcong110906" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/tla_cle/" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com/@cle1196" target="_blank">TikTok</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
